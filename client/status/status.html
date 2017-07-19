@@ -1,0 +1,23 @@
+<template name="status">
+    <div class='row'>
+        <div class='col-md-12 col-centered'>
+            <h3>Status</h3>
+        </div>
+    </div>
+    <div class='voffset30'></div>
+    <div class='row'>
+        <div class='col-md-3'></div>
+        <div class='col-md-6 col-centered'>
+        	{{#if globalStatus}}
+        		<span class="label global-label label-danger">Something is Wrong</span>
+        	{{else}}
+        		<span class="label global-label label-success">All Systems Online</span>
+        	{{/if}}
+        </div>
+    </div>
+    <div class='voffset30'></div>
+    <div class='row'>
+        <div class='col-md-3'></div>
+        <div class="col-md-6">{{#each integrations}} {{> integrationStatus}} {{/each}}</div>
+    </div>
+</template>

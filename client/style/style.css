@@ -1,0 +1,63 @@
+/* CSS declarations go here */
+
+.row {
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+.global-label {
+    font-size: 30px !important;
+}
+
+.voffset30 {
+    margin-top: 30px !important;
+}
+
+.voffset50 {
+    margin-top: 50px !important;
+}
+
+.integration-not-present {
+    color: gray;
+    pointer-events: none;
+    cursor: default;
+}
+
+.integration-not-present:hover {
+	color: gray;
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
+
+.integration-present {
+	color: black;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.integration-present:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.app-title {
+    font-size: 26px;
+    margin-top: 15px;
+}
+
+.app-main {
+    margin-top: 50px;
+}
+
+.glyphicon-big {
+    font-size: 100px;
+}
+
+body {
+    font-size: 18px;
+}
+
+.col-centered {
+    text-align: center;
+}

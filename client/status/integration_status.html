@@ -1,0 +1,13 @@
+<template name="integrationStatus">
+    <div class='row voffset30'>
+        <div class='col-md-3'>
+            {{formatType type}}
+        </div>
+        <div class='col-md-6'>
+            {{url}}
+        </div>
+        <div class='col-md-3'>
+            <span class="label label-{{statusLabel}}">{{statusText}}</span>
+        </div>
+    </div>
+</template>

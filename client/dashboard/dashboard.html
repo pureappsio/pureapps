@@ -1,0 +1,76 @@
+<template name="dashboard">
+    {{#if currentUser}}
+    <div class='row app-main'>
+        <div class='col-md-3 col-centered'>
+            <a class='{{integrationStyle "puremail"}}' href='{{integrationLink "puremail"}}'>
+                <span class="glyphicon glyphicon-envelope glyphicon-big" aria-hidden="true"></span>
+                <div class='app-title'>PureMail</div>
+            </a>
+        </div>
+        <div class='col-md-3 col-centered'>
+            <a class='{{integrationStyle "purecourses"}}' href='{{integrationLink "purecourses"}}'>
+                <span class="glyphicon glyphicon-education glyphicon-big" aria-hidden="true"></span>
+                <div class='app-title'>PureCourses</div>
+            </a>
+        </div>
+        <div class='col-md-3 col-centered'>
+            <a class='{{integrationStyle "purepages"}}' href='{{integrationLink "purepages"}}'>
+                <span class="glyphicon glyphicon-th-list glyphicon-big" aria-hidden="true"></span>
+                <div class='app-title'>PurePages</div>
+            </a>
+        </div>
+        <div class='col-md-3 col-centered'>
+            <a class='{{integrationStyle "puremetrics"}}' href='{{integrationLink "puremetrics"}}'>
+                <span class="glyphicon glyphicon-signal glyphicon-big" aria-hidden="true"></span>
+                <div class='app-title'>PureMetrics</div>
+            </a>
+        </div>
+    </div>
+    <div class='row app-main'>
+        <div class='col-md-3 col-centered'>
+            <a class='{{integrationStyle "purepress"}}' href='{{integrationLink "purepress"}}'>
+                <span class="glyphicon glyphicon-pencil glyphicon-big" aria-hidden="true"></span>
+                <div class='app-title'>PurePress</div>
+            </a>
+        </div>
+        <div class='col-md-3 col-centered'>
+            <a class='{{integrationStyle "purecart"}}' href='{{integrationLink "purecart"}}'>
+                <span class="glyphicon glyphicon-shopping-cart glyphicon-big" aria-hidden="true"></span>
+                <div class='app-title'>PureCart</div>
+            </a>
+        </div>
+        <div class='col-md-3 col-centered'>
+            <a class='{{integrationStyle "puredesk"}}' href='{{integrationLink "puredesk"}}'>
+                <span class="glyphicon glyphicon-user glyphicon-big" aria-hidden="true"></span>
+                <div class='app-title'>PureDesk</div>
+            </a>
+        </div>
+        <div class='col-md-3 col-centered'>
+            <a class='{{integrationStyle "pureprocess"}}' href='{{integrationLink "pureprocess"}}'>
+                <span class="glyphicon glyphicon-tasks glyphicon-big" aria-hidden="true"></span>
+                <div class='app-title'>PureProcess</div>
+            </a>
+        </div>
+    </div>
+    <div class='row app-main'>
+        <div class='col-md-3 col-centered'>
+            <a class='{{integrationStyle "purewebinar"}}' href='{{integrationLink "purewebinar"}}'>
+                <span class="glyphicon glyphicon-film glyphicon-big" aria-hidden="true"></span>
+                <div class='app-title'>PureWebinar</div>
+            </a>
+        </div>
+        <div class='col-md-3 col-centered'>
+            <a class='{{integrationStyle "puresurvey"}}' href='{{integrationLink "puresurvey"}}'>
+                <span class="glyphicon glyphicon-list-alt glyphicon-big" aria-hidden="true"></span>
+                <div class='app-title'>PureSurvey</div>
+            </a>
+        </div>
+        <div class='col-md-3 col-centered'>
+            <a class='{{integrationStyle "pureschedule"}}' href='{{integrationLink "pureschedule"}}'>
+                <span class="glyphicon glyphicon-time glyphicon-big" aria-hidden="true"></span>
+                <div class='app-title'>PureSchedule</div>
+            </a>
+        </div>
+    </div>
+    {{/if}}
+</template>
